@@ -1,0 +1,5 @@
+﻿  File.cpp
+  Flipnote.cpp
+  main.cpp
+  Signer.cpp
+cryptlib.lib(pkcspad.obj) : fatal error LNK1112: Modul-Computertyp "X86" steht in Konflikt mit dem Zielcomputertyp "x64".

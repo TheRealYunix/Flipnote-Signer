@@ -1,0 +1,9 @@
+﻿  PPM_Filename.cpp
+PPM_Filename.cpp(44): warning C4551: Dem Funktionsaufruf fehlt die Argumentliste
+  Code wird generiert.
+  9 of 1426 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    7 functions had inline decision re-evaluated but remain unchanged
+  Codegenerierung ist abgeschlossen.
+  FlipnoteTools.vcxproj -> C:\Users\TheRealYunix\Documents\Visual Studio 2015\Projects\FlipnoteTools\Release\FlipnoteTools.exe
+  FlipnoteTools.vcxproj -> C:\Users\TheRealYunix\Documents\Visual Studio 2015\Projects\FlipnoteTools\Release\FlipnoteTools.pdb (Full PDB)

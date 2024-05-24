@@ -7,86 +7,108 @@
     </Filter>
     <Filter Include="Headerdateien">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
     <Filter Include="Ressourcendateien">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Headerdateien\RSA">
-      <UniqueIdentifier>{142e7655-6f25-43b4-9e8a-e8300aa2c5fc}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Quelldateien\RSA">
-      <UniqueIdentifier>{fd775fe0-5331-45c2-8478-70ca828e08cc}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Quelldateien\Utils">
-      <UniqueIdentifier>{d9040617-3c59-4b0e-9c97-4d5e58241b90}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Headerdateien\Utils">
-      <UniqueIdentifier>{19ede81d-66b8-4809-9d16-480bb89ddeca}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Headerdateien\Utils\File">
-      <UniqueIdentifier>{532f3bb7-4b15-4230-acf0-646cb095268e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Quelldateien\Utils\File">
-      <UniqueIdentifier>{157398ee-20e9-4570-a65e-1e8d78f55b89}</UniqueIdentifier>
+    <Filter Include="Quelldateien\PPM">
+      <UniqueIdentifier>{55e6316a-6f2d-40b1-9945-7c41a160af31}</UniqueIdentifier>
     </Filter>
     <Filter Include="Headerdateien\PPM">
-      <UniqueIdentifier>{bd8f77f2-8893-48fe-a505-197d9e9e7a46}</UniqueIdentifier>
+      <UniqueIdentifier>{0618da07-246c-4ad5-8dee-be73ebb3d652}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Quelldateien\PPM">
-      <UniqueIdentifier>{e8777130-113a-41dd-8b01-67e8f7ba116a}</UniqueIdentifier>
+    <Filter Include="Headerdateien\Utils">
+      <UniqueIdentifier>{d441fbb1-af72-4c06-9c45-cdbde2f12288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\GUI">
+      <UniqueIdentifier>{c635a3cd-3957-47ac-b2e5-750c57291ed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\GUI">
+      <UniqueIdentifier>{f122c9cc-c079-4696-a0b4-1c9fbcf79ad8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="Signer.cpp">
-      <Filter>Quelldateien\RSA</Filter>
-    </ClCompile>
-    <ClCompile Include="FileBinary.cpp">
-      <Filter>Quelldateien\Utils\File</Filter>
-    </ClCompile>
-    <ClCompile Include="File.cpp">
-      <Filter>Quelldateien\Utils\File</Filter>
-    </ClCompile>
-    <ClCompile Include="Flipnote.cpp">
+    <ClCompile Include="PPM.cpp">
       <Filter>Quelldateien\PPM</Filter>
     </ClCompile>
-    <ClCompile Include="PPM_RSA.cpp">
+    <ClCompile Include="RSA.cpp">
       <Filter>Quelldateien\PPM</Filter>
     </ClCompile>
-    <ClCompile Include="Names.cpp">
+    <ClCompile Include="Checksum.cpp">
       <Filter>Quelldateien\PPM</Filter>
     </ClCompile>
-    <ClCompile Include="PPM_Filename.cpp">
+    <ClCompile Include="Font.cpp">
       <Filter>Quelldateien\PPM</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageHandler.cpp">
+      <Filter>Quelldateien\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GetPPMInformation.cpp">
+      <Filter>Quelldateien\GUI</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Signer.hpp">
-      <Filter>Headerdateien\RSA</Filter>
+    <ClInclude Include="PPM.hpp">
+      <Filter>Headerdateien\PPM</Filter>
     </ClInclude>
-    <ClInclude Include="File.hpp">
-      <Filter>Headerdateien\Utils\File</Filter>
-    </ClInclude>
-    <ClInclude Include="types.h">
+    <ClInclude Include="Utils.h">
       <Filter>Headerdateien\Utils</Filter>
     </ClInclude>
-    <ClInclude Include="resource1.h">
-      <Filter>Ressourcendateien</Filter>
-    </ClInclude>
-    <ClInclude Include="Flipnote.hpp">
+    <ClInclude Include="RSA.hpp">
       <Filter>Headerdateien\PPM</Filter>
     </ClInclude>
-    <ClInclude Include="PPM_Filename.hpp">
-      <Filter>Headerdateien\PPM</Filter>
+    <ClInclude Include="resource.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.hpp">
+      <Filter>Headerdateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageHandler.hpp">
+      <Filter>Headerdateien\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Headerdateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings.h">
+      <Filter>Headerdateien\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIHelpers.hpp">
+      <Filter>Headerdateien\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FlipnoteThumbnail.h">
+      <Filter>Headerdateien\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveFileBox.h">
+      <Filter>Headerdateien\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="commandline.h">
+      <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="FlipnoteTools.rc">
+    <ResourceCompile Include="Resource.rc">
       <Filter>Ressourcendateien</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\Icon.ico">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\font1.bin">
+      <Filter>Ressourcendateien</Filter>
+    </None>
+    <None Include="assets\font2.bin">
+      <Filter>Ressourcendateien</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="assets\sudofont.ttf" />
   </ItemGroup>
 </Project>

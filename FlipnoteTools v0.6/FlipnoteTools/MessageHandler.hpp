@@ -103,7 +103,7 @@ LRESULT CALLBACK MessageHandler(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lPar
 			month = std::stoi(szMonth);
 
 			GetWindowTextW(hYearTimestamp, szYear, 5);
-			if (!Utils::ValidateInput(hMainWindow, szYear, 1900, 2099, "The entered year is invalid. Please enter a year between 1900 and 2100."))
+			if (!Utils::ValidateInput(hMainWindow, szYear, 2000, 2099, "The entered year is invalid. Please enter a year between 1900 and 2100."))
 				break;
 			year = std::stoi(szYear);
 

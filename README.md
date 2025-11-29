@@ -24,6 +24,9 @@ FlipnoteTools.exe -s example_flipnote.ppm
 ```
 This command signs the example_flipnote.ppm file.
 
+# Credits
+Thanks to Crezy for testing!
+
 # Contributing
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
